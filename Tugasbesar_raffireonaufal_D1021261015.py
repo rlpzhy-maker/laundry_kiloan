@@ -27,7 +27,7 @@ nim = st.text_input(
 berat = st.number_input(
    "Berat Cucian (Kg)",
    step=1,
-   key="berat
+   key="berat"
 )
 
 col1, col2 = st.colums(2)
