@@ -69,7 +69,7 @@ if tombol_hitung:
 
        potongan = biaya_normal * diskon / 100
 
-       total_bayar = biaya normal - potongan
+       total_bayar = biaya_normal - potongan
 
        st.session_state.hasil = {
            "tarif": tarif,
