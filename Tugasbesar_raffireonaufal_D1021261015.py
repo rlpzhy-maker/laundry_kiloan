@@ -38,7 +38,7 @@ with col1:
 with col2:
     st.button(
        "reset",
-       on_click=reset_data
+       on_click=reset_data,
        use_container_width=true
     )
     
