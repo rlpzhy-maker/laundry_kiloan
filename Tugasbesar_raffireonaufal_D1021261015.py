@@ -20,7 +20,7 @@ def reset_data():
 st.subheader("Data Pelanggan")
 
 nim = st.text_input(
-  "Masukan NIM (10 digit angka)"
+  "Masukan NIM (10 digit angka)",
   key="ni"
 )
 
