@@ -30,7 +30,7 @@ berat = st.number_input(
    key="berat"
 )
 
-col1, col2 = st.colums(2)
+col1, col2 = st.columns(2)
 
 with col1:
     tombol_hitung = st.button("Hitung Biaya", use_container_width=true)
