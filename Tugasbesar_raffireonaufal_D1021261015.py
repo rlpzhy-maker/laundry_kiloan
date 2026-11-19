@@ -63,22 +63,22 @@ if tombol_hitung:
            if int (angka) % 2 == 0:
                jumlah_genap = jumlah_genap + 1
 
-        diskon = jumlah_genap * 1
+       diskon = jumlah_genap * 1
 
-        biaya_normal = berat * tarif
+       biaya_normal = berat * tarif
 
-        potongan = biaya_normal * diskon / 100
+       potongan = biaya_normal * diskon / 100
 
-        total_bayar = biaya normal - potongan
+       total_bayar = biaya normal - potongan
 
-        st.session_state.hasil = {
+       st.session_state.hasil = {
            "tarif": tarif,
            "jumlah genap": jumlah_genap,
            "diskon": diskon,
            "biaya_normal": biaya_normal,
            "potongan": potongan,
            "total_bayar": total_bayar
-        }
+       }
 
 if st.session_state.hasil is not None:
     hasil = st.session_state.hasil
