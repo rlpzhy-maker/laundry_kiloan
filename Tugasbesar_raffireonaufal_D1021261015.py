@@ -4,13 +4,10 @@ import streamlit as st
 st.title("Aplikasi Biaya Laundry Kiloan")
 st.write("Program Menghitung Biaya Laundry Berdasarkan NIM")
 
-col1, col2, col3 = st.columns([3, 1])
+col1, col2 = st.columns([3, 1])
 
 with col2:
-    st.image(".devcontainer/miku_chibi.png", width=180)
-
-with col3:
-    st.image(".devcontainer/donwload-removebg-previem.png", width=-180)
+    st.image(".devcontainer/download-removebg-preview.png", width=180)
 
 if "nim" not in st.session_state:
     st.session_state.nim = ""
