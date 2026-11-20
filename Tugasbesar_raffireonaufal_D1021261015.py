@@ -103,24 +103,6 @@ if tombol_hitung:
             "total_bayar": total_bayar
         }
 
-
-# Menampilkan hasil perhitungan
-if st.session_state.hasil is not None:
-
-    hasil = st.session_state.hasil
-
-    st.divider()
-    st.subheader("Hasil Perhitungan")
-
-    # Menampilkan informasi
-    st.write("NIM:", nim)
-    st.write("Berat Cucian:", berat, "kg")
-    st.write("Tarif per kg: Rp", f"{hasil['tarif']:,.0f}".replace(",", "."))
-    st.write("Jumlah Digit Genap:", hasil["jumlah_genap"])
-    st.write("Diskon:", hasil["diskon"], "%")
-
-    st.divider()
-
     # Menampilkan biaya
     st.write(
         "Biaya Normal: Rp",
